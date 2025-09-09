@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ReduceTest {
 
 
+    @org.junit.Test
     @Test
     public void testReduce() {
         assertEquals(9,
@@ -16,6 +17,7 @@ public class ReduceTest {
                 "Reduce.reduce(100) is incorrect");
     }
 
+    @org.junit.Test
     @Test
     public void testReduceTwoHundred() {
         assertEquals(10,
@@ -30,6 +32,7 @@ public class ReduceTest {
                 "Reduce.reduce(42) is incorrect");
     }
 
+    @org.junit.Test
     @Test
     public void testReduceOne() {
         assertEquals(1,
@@ -37,6 +40,7 @@ public class ReduceTest {
                 "Reduce.reduce(1) is incorrect");
     }
 
+    @org.junit.Test
     @Test
     public void testReduceTwo() {
         assertEquals(2,
